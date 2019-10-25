@@ -3,9 +3,10 @@ Created on Wed Oct 23 10:33:50 2019
 
 @author: Nicholas Zomparelli
 
-This code was created by me (Nicholas Zomparelli) for the 2019 Insight Data
-Engineering Coding Challenge. Below is the entirity of the code, commented for 
-convenience. For more details about the code, refer to the README file
+This code was created by me (Nicholas Zomparelli) in Python 2.7 for the 2019 
+Insight Data Engineering Coding Challenge. Below is the entirity of the code, 
+commented for convenience. For more details about the code, refer to the README 
+file
 
 The code takes in a file named Border_Crossing_Entry_Data.csv and outputs a
 file names report.csv
