@@ -23,7 +23,7 @@ from the CSV library (a standard Python 2.7 library) and stored in a list
 import csv
 borderdataraw=[] 
 
-with open('Border_Crossing_Entry_Data.csv') as datafile:
+with open('./input/Border_Crossing_Entry_Data.csv') as datafile:
     reader=csv.reader(datafile, delimiter=',')
     for data in reader:
            borderdataraw.append(data)
@@ -259,6 +259,6 @@ library
 output=[['Border', 'Date', 'Measure', 'Value', 'Average']]+outputraw
 
 #Writing the output file
-with open("report.csv", "wb") as rep:
+with open("./output/report.csv", "wb") as rep:
     writer = csv.writer(rep)
     writer.writerows(output)
