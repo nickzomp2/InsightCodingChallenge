@@ -7,4 +7,4 @@ In short, the aforementioned code takes in border data and stores the informatio
 
 The code is fully scalable to larger datasets and is beneficial in the fact that the matrices act as databases for the border data, which can be queried if need be. Aside from built-in Python 2.7 functions, the only library that was used was csv, to handle the inputting and outputting of data. It should be noted that the csv library is a Python 2.7 standard library however.
 
-This repo also contains, in addition to the provided test, an additional test containing a larger dataset. This is to test the code's tolerance of a larger dataset, which larger amounts of variables, etc.
+This repo also contains, in addition to the provided test, an additional test which uses a larger inputted dataset. This is to test the code's tolerance of a larger dataset, which contains a larger amounts of variables, etc.
