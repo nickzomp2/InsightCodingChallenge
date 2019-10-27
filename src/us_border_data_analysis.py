@@ -197,12 +197,12 @@ for h in range(0,len(Years)):
                    
                             if len(DateMatrix[Years[h]][m][n][l])!=0: 
                                    outputraw.append([Borders[m],DateMatrix[Years[h]][m][n][l][0],\
-                                                     Measures[n],SumMatrix[Years[h]][m][n][l],\
-                                                     RunningAverageMatrix[Years[h]][m][n][l]])
+                                                     Measures[n],int(SumMatrix[Years[h]][m][n][l]),\
+                                                     int(RunningAverageMatrix[Years[h]][m][n][l])])
                                    
                             else:
                                    pass                            
-                         
+                                                  
 """
 Some DateMatrix entries contain points with no data. This above if condition 
 removes them on the basis that every data point has an associated date (i.e. 
