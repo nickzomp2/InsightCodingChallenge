@@ -3,13 +3,13 @@ Created on Wed Oct 23 10:33:50 2019
 
 @author: Nicholas Zomparelli
 
-This code was created by me (Nicholas Zomparelli) in Python 2.7 for the 2019 
+This code was written by me (Nicholas Zomparelli) in Python 2.7 for the 2019 
 Insight Data Engineering Coding Challenge. Below is the entirity of the code, 
 commented for convenience. For more details about the code, refer to the README 
 file
 
-The code takes in a file named Border_Crossing_Entry_Data.csv and outputs a
-file names report.csv
+Input file: Border_Crossing_Entry_Data.csv
+Output file: report.csv
 """
 
 #####IMPORTING DATA###########################################################
@@ -204,7 +204,7 @@ for h in range(0,len(Years)):
                                    pass                            
                                                   
 """
-Some DateMatrix entries contain points with no data. This above if condition 
+Some DateMatrix entries contain points with no data. The above if condition 
 removes them on the basis that every data point has an associated date (i.e. 
 the length of that specific entry in the DataMatrix is not equal to zero)
 """
