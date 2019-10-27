@@ -176,7 +176,8 @@ for h in range(0,len(Years)):
               for k in range(0, len(Measures)):
                      RunningAverageMatrix[Years[h]][j][k][0]=0.0
                      for l in range(1, len(Months)):
-                            RunningAverageMatrix[Years[h]][j][k][l]=round(sum(SumMatrix[Years[h]][j][k][0:l])/float(l))                   
+                            RunningAverageMatrix[Years[h]][j][k][l]=\
+                            round(sum(SumMatrix[Years[h]][j][k][0:l])/float(l))                   
               
 
 #####COLLECTING AND COMPILING CALCULATED DATA#################################
@@ -195,7 +196,9 @@ for h in range(0,len(Years)):
                      for n in range(0,len(Measures)):
                    
                             if len(DateMatrix[Years[h]][m][n][l])!=0: 
-                                   outputraw.append([Borders[m],DateMatrix[Years[h]][m][n][l][0],Measures[n],SumMatrix[Years[h]][m][n][l],RunningAverageMatrix[Years[h]][m][n][l]])
+                                   outputraw.append([Borders[m],DateMatrix[Years[h]][m][n][l][0],\
+                                                     Measures[n],SumMatrix[Years[h]][m][n][l],\
+                                                     RunningAverageMatrix[Years[h]][m][n][l]])
                                    
                             else:
                                    pass                            
